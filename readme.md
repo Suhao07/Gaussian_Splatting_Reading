@@ -1,0 +1,9 @@
+参考了Youtube博主AI葵的解说
+可以从内部取出pointcloud或mesh
+pipeline:
+前向传播
+1.计算GS投影出的圆的半径
+2.计算覆盖的像素
+3.计算每个高斯的前后顺序
+4.计算每个像素的颜色
+1、2对应preprocessCUDA部分
